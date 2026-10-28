@@ -1,0 +1,21 @@
+{
+  "name": "daylung",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Daylung — AI-консультант по выбору цифровых сервисов",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node scripts/seed.js",
+    "reset": "node scripts/reset.js",
+    "check": "node scripts/check.js",
+    "db:check": "node scripts/db-check.js"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  }
+}

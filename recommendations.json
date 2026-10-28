@@ -1,0 +1,40 @@
+[
+  {
+    "id": "rec_seed1",
+    "query": "Какой VPN лучше для iPhone и стриминга",
+    "categorySlug": "vpn",
+    "serviceIds": [
+      "svc_aurora",
+      "svc_tunnel",
+      "svc_northline"
+    ],
+    "summary": "Для 4K на iPhone важны скорость на дальних серверах и профили для iOS.",
+    "published": true,
+    "createdAt": "2026-10-14T09:20:00.000Z"
+  },
+  {
+    "id": "rec_seed2",
+    "query": "Недорогой AI для программирования на Python",
+    "categorySlug": "ai",
+    "serviceIds": [
+      "svc_pyassist",
+      "svc_codelight",
+      "svc_syntaxer"
+    ],
+    "summary": "При ограниченном бюджете разумно начать с PyAssist и перейти на Codelight при росте задач.",
+    "published": true,
+    "createdAt": "2026-10-19T14:05:00.000Z"
+  },
+  {
+    "id": "rec_seed3",
+    "query": "Хостинг для небольшого сайта-портфолио",
+    "categorySlug": "hosting",
+    "serviceIds": [
+      "svc_hostline",
+      "svc_northstack"
+    ],
+    "summary": "Для статического портфолио достаточно Hostline; если нужен деплой из Git — Northstack.",
+    "published": true,
+    "createdAt": "2026-10-22T11:42:00.000Z"
+  }
+]

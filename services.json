@@ -1,0 +1,446 @@
+[
+  {
+    "id": "svc_aurora",
+    "slug": "aurora-vpn",
+    "name": "Aurora VPN",
+    "categoryId": "cat_vpn",
+    "tagline": "Быстрый VPN для стриминга и поездок",
+    "description": "Держит скорость на дальних серверах и открывает медиатеки без дополнительных настроек. Подключение в один тап на iPhone.",
+    "logo": {
+      "text": "A",
+      "hue": 276
+    },
+    "price": "≈ 480 ₽ / мес",
+    "priceValue": 480,
+    "rating": 4.8,
+    "pros": [
+      "Стабильные 4K на серверах США и Нидерландов",
+      "Готовые профили для iOS",
+      "Поддержка на русском"
+    ],
+    "cons": [
+      "Дороже среднего на 20%",
+      "Нет бесплатного тарифа"
+    ],
+    "platforms": [
+      "ios",
+      "android",
+      "macos",
+      "windows"
+    ],
+    "metrics": {
+      "quality": 96,
+      "price": 74,
+      "speed": 96
+    },
+    "url": "https://example.com/aurora",
+    "affiliateUrl": "",
+    "published": true,
+    "featured": true
+  },
+  {
+    "id": "svc_codelight",
+    "slug": "codelight",
+    "name": "Codelight",
+    "categoryId": "cat_ai",
+    "tagline": "Ассистент для Python и анализа данных",
+    "description": "Понимает контекст проекта целиком, а не отдельный файл. Хорошо работает с pandas, FastAPI и Jupyter: подсказывает не только код, но и почему он такой.",
+    "logo": {
+      "text": "C",
+      "hue": 258
+    },
+    "price": "от 1 200 ₽ / мес",
+    "priceValue": 1200,
+    "rating": 4.7,
+    "pros": [
+      "Уверенно держит контекст в 8–10 файлов",
+      "Объясняет ошибки на русском",
+      "Есть бесплатный тариф без карты"
+    ],
+    "cons": [
+      "Лимит запросов на бесплатном тарифе быстро кончается",
+      "Нет мобильного приложения"
+    ],
+    "platforms": [
+      "web",
+      "vscode",
+      "jetbrains"
+    ],
+    "metrics": {
+      "quality": 88,
+      "price": 62,
+      "speed": 90
+    },
+    "url": "https://example.com/codelight",
+    "affiliateUrl": "",
+    "published": true,
+    "featured": true
+  },
+  {
+    "id": "svc_northstack",
+    "slug": "northstack",
+    "name": "Northstack",
+    "categoryId": "cat_hosting",
+    "tagline": "Платформа для деплоя из Git",
+    "description": "Подключили репозиторий — получили превью на каждый коммит. Хорошо для статических сайтов и небольших Node-приложений.",
+    "logo": {
+      "text": "N",
+      "hue": 190
+    },
+    "price": "от 0 ₽, Pro 900 ₽ / мес",
+    "priceValue": 900,
+    "rating": 4.6,
+    "pros": [
+      "Деплой по git push",
+      "Превью на каждый пул-реквест",
+      "Бесплатный тариф"
+    ],
+    "cons": [
+      "Сложнее для новичка без Git",
+      "Холодный старт на бесплатном тарифе"
+    ],
+    "platforms": [
+      "web",
+      "github",
+      "gitlab"
+    ],
+    "metrics": {
+      "quality": 88,
+      "price": 82,
+      "speed": 84
+    },
+    "url": "https://example.com/northstack",
+    "affiliateUrl": "",
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": "svc_syntaxer",
+    "slug": "syntaxer",
+    "name": "Syntaxer",
+    "categoryId": "cat_ai",
+    "tagline": "Командный ассистент с общим контекстом",
+    "description": "Заточен под команды: общий индекс репозитория, ревью пул-реквестов, единые правила стиля. Для одиночной разработки избыточен.",
+    "logo": {
+      "text": "S",
+      "hue": 160
+    },
+    "price": "от 2 400 ₽ / мес",
+    "priceValue": 2400,
+    "rating": 4.5,
+    "pros": [
+      "Индекс всего репозитория",
+      "Ревью прямо в пул-реквестах"
+    ],
+    "cons": [
+      "Дорого для одного разработчика",
+      "Долгая первичная индексация"
+    ],
+    "platforms": [
+      "web",
+      "vscode",
+      "github"
+    ],
+    "metrics": {
+      "quality": 92,
+      "price": 34,
+      "speed": 74
+    },
+    "url": "https://example.com/syntaxer",
+    "affiliateUrl": "",
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": "svc_northline",
+    "slug": "northline",
+    "name": "Northline",
+    "categoryId": "cat_vpn",
+    "tagline": "VPN с упором на приватность",
+    "description": "Проверяемые логи, открытый код клиента, оплата без привязки к личности. Для медиатек подходит хуже — меньше серверов.",
+    "logo": {
+      "text": "N",
+      "hue": 210
+    },
+    "price": "≈ 390 ₽ / мес",
+    "priceValue": 390,
+    "rating": 4.5,
+    "pros": [
+      "Независимый аудит политики",
+      "Открытый исходный код клиента"
+    ],
+    "cons": [
+      "Меньше серверов для стриминга",
+      "Нет автоматического выбора страны по нагрузке"
+    ],
+    "platforms": [
+      "ios",
+      "android",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "metrics": {
+      "quality": 88,
+      "price": 80,
+      "speed": 76
+    },
+    "url": "https://example.com/northline",
+    "affiliateUrl": "",
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": "svc_tunnel",
+    "slug": "tunnel-one",
+    "name": "Tunnel One",
+    "categoryId": "cat_vpn",
+    "tagline": "Бюджетный VPN на много устройств",
+    "description": "Лучшая цена при годовой оплате и десять устройств на одном аккаунте. Скорость ниже, чем у лидеров, но для повседневного использования хватает.",
+    "logo": {
+      "text": "T",
+      "hue": 152
+    },
+    "price": "≈ 210 ₽ / мес",
+    "priceValue": 210,
+    "rating": 4.4,
+    "pros": [
+      "Дешевле всех в подборке",
+      "10 устройств на аккаунт"
+    ],
+    "cons": [
+      "Поддержка только на английском",
+      "Скорость проседает вечером"
+    ],
+    "platforms": [
+      "ios",
+      "android",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "metrics": {
+      "quality": 84,
+      "price": 95,
+      "speed": 78
+    },
+    "url": "https://example.com/tunnelone",
+    "affiliateUrl": "",
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": "svc_studyai",
+    "slug": "studyai",
+    "name": "StudyFlow",
+    "categoryId": "cat_ai",
+    "tagline": "AI для учёбы и конспектов",
+    "description": "Собирает конспекты из лекций и PDF, делает карточки для повторения и проверяет понимание вопросами.",
+    "logo": {
+      "text": "S",
+      "hue": 320
+    },
+    "price": "от 690 ₽ / мес",
+    "priceValue": 690,
+    "rating": 4.3,
+    "pros": [
+      "Загружает PDF и аудио лекций",
+      "Готовые карточки для повторения"
+    ],
+    "cons": [
+      "Только для учёбы, не для работы",
+      "Нет интеграций с IDE"
+    ],
+    "platforms": [
+      "web",
+      "ios",
+      "android"
+    ],
+    "metrics": {
+      "quality": 71,
+      "price": 78,
+      "speed": 86
+    },
+    "url": "https://example.com/studyflow",
+    "affiliateUrl": "",
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": "svc_ledgerly",
+    "slug": "ledgerly",
+    "name": "Ledgerly",
+    "categoryId": "cat_business",
+    "tagline": "Учёт для небольших студий",
+    "description": "Счета, акты и налоги в одном месте. Не заменяет бухгалтера, но снимает рутину с ежемесячными документами.",
+    "logo": {
+      "text": "L",
+      "hue": 30
+    },
+    "price": "от 990 ₽ / мес",
+    "priceValue": 990,
+    "rating": 4.3,
+    "pros": [
+      "Автоматические акты и счета",
+      "Выгрузка в банк"
+    ],
+    "cons": [
+      "Нет валютного учёта",
+      "Интерфейс местами устарел"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "metrics": {
+      "quality": 76,
+      "price": 74,
+      "speed": 68
+    },
+    "url": "https://example.com/ledgerly",
+    "affiliateUrl": "",
+    "published": true,
+    "featured": true
+  },
+  {
+    "id": "svc_pyassist",
+    "slug": "pyassist",
+    "name": "PyAssist",
+    "categoryId": "cat_ai",
+    "tagline": "Дешёвый ассистент для учебных задач",
+    "description": "Простой помощник по коду и объяснениям. Не тянет большие проекты, но отлично справляется с домашними заданиями и разбором алгоритмов.",
+    "logo": {
+      "text": "P",
+      "hue": 200
+    },
+    "price": "от 390 ₽ / мес",
+    "priceValue": 390,
+    "rating": 4.2,
+    "pros": [
+      "Самая низкая цена в подборке",
+      "Понятные объяснения для новичков"
+    ],
+    "cons": [
+      "Слабое понимание больших проектов",
+      "Иногда выдумывает функции"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "metrics": {
+      "quality": 66,
+      "price": 95,
+      "speed": 82
+    },
+    "url": "https://example.com/pyassist",
+    "affiliateUrl": "",
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": "svc_flowdesk",
+    "slug": "flowdesk",
+    "name": "Flowdesk",
+    "categoryId": "cat_business",
+    "tagline": "Задачи и проекты для команды до 10 человек",
+    "description": "Канбан, спринты и время. Легче тяжёлых корпоративных систем, но без них же и возможностей.",
+    "logo": {
+      "text": "F",
+      "hue": 340
+    },
+    "price": "от 600 ₽ / мес за человека",
+    "priceValue": 600,
+    "rating": 4.2,
+    "pros": [
+      "Быстрый старт",
+      "Понятная доска задач"
+    ],
+    "cons": [
+      "Нет сложных отчётов",
+      "Платно за каждого участника"
+    ],
+    "platforms": [
+      "web",
+      "ios",
+      "android"
+    ],
+    "metrics": {
+      "quality": 72,
+      "price": 68,
+      "speed": 86
+    },
+    "url": "https://example.com/flowdesk",
+    "affiliateUrl": "",
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": "svc_hostline",
+    "slug": "hostline",
+    "name": "Hostline",
+    "categoryId": "cat_hosting",
+    "tagline": "Хостинг для сайтов-визиток",
+    "description": "Простой shared-хостинг с панелью на русском. Достаточно для портфолио и небольшого блога, но не для нагруженных приложений.",
+    "logo": {
+      "text": "H",
+      "hue": 216
+    },
+    "price": "от 250 ₽ / мес",
+    "priceValue": 250,
+    "rating": 4.1,
+    "pros": [
+      "Недорого и предсказуемо",
+      "Поддержка отвечает быстро"
+    ],
+    "cons": [
+      "Нет SSH на базовом тарифе",
+      "Ограничение по нагрузке"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "metrics": {
+      "quality": 70,
+      "price": 90,
+      "speed": 72
+    },
+    "url": "https://example.com/hostline",
+    "affiliateUrl": "",
+    "published": true,
+    "featured": true
+  },
+  {
+    "id": "svc_mailmint",
+    "slug": "mailmint",
+    "name": "Mailmint",
+    "categoryId": "cat_business",
+    "tagline": "Рассылки без дизайнера",
+    "description": "Готовые блоки писем, простая сегментация и понятная статистика открытий. Для регулярных писем небольшой базе подписчиков.",
+    "logo": {
+      "text": "M",
+      "hue": 140
+    },
+    "price": "от 750 ₽ / мес",
+    "priceValue": 750,
+    "rating": 4,
+    "pros": [
+      "Собирается без вёрстки",
+      "Хорошая доставляемость"
+    ],
+    "cons": [
+      "Мало автоматизаций",
+      "Сегменты только по базовым полям"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "metrics": {
+      "quality": 69,
+      "price": 78,
+      "speed": 80
+    },
+    "url": "https://example.com/mailmint",
+    "affiliateUrl": "",
+    "published": true,
+    "featured": false
+  }
+]

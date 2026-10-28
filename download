@@ -1,0 +1,18 @@
+# зависимости
+node_modules/
+
+# секреты — никогда не коммитятся
+.env
+.env.local
+.env.*.local
+
+# данные среды выполнения
+data/backups/
+data/versions/
+data/clicks.json
+data/changes.json
+
+# служебное
+*.log
+.DS_Store
+legacy/screens/
